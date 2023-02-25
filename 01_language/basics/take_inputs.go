@@ -17,3 +17,7 @@ func main() {
 // scan()    - values with spaces
 // scanln()  - values with new lines
 // scanf()   - values with format specifiers e.g. %d %s
+
+/* multiline
+comment
+*/
