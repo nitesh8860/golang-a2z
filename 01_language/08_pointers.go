@@ -7,6 +7,11 @@ func update(num *int) {
 	*num = 30
 }
 
+type Weather struct {
+	city        string
+	temperature int
+}
+
 func main() {
 	var num int = 5
 
@@ -23,4 +28,17 @@ func main() {
 	update(&number)
 
 	fmt.Println("The number is", number)
+
+	// struct example
+	// create struct variable
+	weather := Weather{"California", 20}
+	fmt.Println("Initial Weather:", weather)
+
+	// create struct type pointer
+	wtr := &weather
+
+	// change value of temperature to 25
+	wtr.temperature = 25
+
+	fmt.Println("Updated Weather:", weather)
 }
