@@ -10,4 +10,5 @@ We are focusing on following topics:
 - leetcode
 - frameworks
 
-Every snippet, if it from a lecture on the internet, has a link to it as the comment on top.
+References:    
+- https://www.programiz.com/golang
